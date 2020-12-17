@@ -1,0 +1,1704 @@
+{
+  "contractName": "Points",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "new_points",
+          "type": "uint8"
+        }
+      ],
+      "name": "pushPoints",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "new_points",
+          "type": "uint8"
+        }
+      ],
+      "name": "removePoints",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getTotalPoints",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getTotalPoints\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"new_points\",\"type\":\"uint8\"}],\"name\":\"pushPoints\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"new_points\",\"type\":\"uint8\"}],\"name\":\"removePoints\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/smithj40/Documents/Blockchain/Final_Project/central-clicker-truffle/contracts/points.sol\":\"Points\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/smithj40/Documents/Blockchain/Final_Project/central-clicker-truffle/contracts/points.sol\":{\"keccak256\":\"0x497329d679d7f3f03076da5801e487be1e7622e582480ae8ec4143e57af975b6\",\"urls\":[\"bzz-raw://adc00bb65408ee466558bb2d6ed33916bf371b112969a0dd33d70b93dfca80ef\",\"dweb:/ipfs/QmWxRoPGuknYDk8fL7Ww1tpXKzD12KDbyThs75Fan9UC1s\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506103b9806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80631c95206414610046578063326bfcc114610062578063e66801a514610080575b600080fd5b610060600480360361005b9190810190610268565b61009c565b005b61006a61014e565b6040516100779190610326565b60405180910390f35b61009a60048036036100959190810190610268565b6101a1565b005b60008160ff16116100e2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016100d990610306565b60405180910390fd5b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282829054906101000a900460ff160392506101000a81548160ff021916908360ff16021790555050565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905090565b60008160ff16116101e7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101de90610306565b60405180910390fd5b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282829054906101000a900460ff160192506101000a81548160ff021916908360ff16021790555050565b6000813590506102628161035f565b92915050565b60006020828403121561027a57600080fd5b600061028884828501610253565b91505092915050565b600061029e602f83610341565b91507f506f696e7473206d757374206265206e6f6e2d7a65726f20616e64206e6f6e2d60008301527f6e65676174697665206e756d62657200000000000000000000000000000000006020830152604082019050919050565b61030081610352565b82525050565b6000602082019050818103600083015261031f81610291565b9050919050565b600060208201905061033b60008301846102f7565b92915050565b600082825260208201905092915050565b600060ff82169050919050565b61036881610352565b811461037357600080fd5b5056fea365627a7a72315820cf4ceedd7339a9835a9aa46417fa4d1090db79247a84bfd5644c85767f659c776c6578706572696d656e74616cf564736f6c63430005100040",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80631c95206414610046578063326bfcc114610062578063e66801a514610080575b600080fd5b610060600480360361005b9190810190610268565b61009c565b005b61006a61014e565b6040516100779190610326565b60405180910390f35b61009a60048036036100959190810190610268565b6101a1565b005b60008160ff16116100e2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016100d990610306565b60405180910390fd5b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282829054906101000a900460ff160392506101000a81548160ff021916908360ff16021790555050565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905090565b60008160ff16116101e7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101de90610306565b60405180910390fd5b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282829054906101000a900460ff160192506101000a81548160ff021916908360ff16021790555050565b6000813590506102628161035f565b92915050565b60006020828403121561027a57600080fd5b600061028884828501610253565b91505092915050565b600061029e602f83610341565b91507f506f696e7473206d757374206265206e6f6e2d7a65726f20616e64206e6f6e2d60008301527f6e65676174697665206e756d62657200000000000000000000000000000000006020830152604082019050919050565b61030081610352565b82525050565b6000602082019050818103600083015261031f81610291565b9050919050565b600060208201905061033b60008301846102f7565b92915050565b600082825260208201905092915050565b600060ff82169050919050565b61036881610352565b811461037357600080fd5b5056fea365627a7a72315820cf4ceedd7339a9835a9aa46417fa4d1090db79247a84bfd5644c85767f659c776c6578706572696d656e74616cf564736f6c63430005100040",
+  "sourceMap": "106:562:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;106:562:2;;;;;;;",
+  "deployedSourceMap": "106:562:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;106:562:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;372:183;;;;;;;;;;;;;;;;:::i;:::-;;567:98;;;:::i;:::-;;;;;;;;;;;;;;;;183:181;;;;;;;;;;;;;;;;:::i;:::-;;372:183;451:1;438:10;:14;;;430:74;;;;;;;;;;;;;;;;;;;;;;537:10;515:6;:18;522:10;515:18;;;;;;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;372:183;:::o;567:98::-;614:5;639:6;:18;646:10;639:18;;;;;;;;;;;;;;;;;;;;;;;;;632:25;;567:98;:::o;183:181::-;260:1;247:10;:14;;;239:74;;;;;;;;;;;;;;;;;;;;;;346:10;324:6;:18;331:10;324:18;;;;;;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;183:181;:::o;5:126:-1:-;;83:6;70:20;61:29;;95:31;120:5;95:31;;;55:76;;;;;138:237;;240:2;228:9;219:7;215:23;211:32;208:2;;;256:1;253;246:12;208:2;291:1;308:51;351:7;342:6;331:9;327:22;308:51;;;298:61;;270:95;202:173;;;;;383:384;;543:67;607:2;602:3;543:67;;;536:74;;643:34;639:1;634:3;630:11;623:55;712:17;707:2;702:3;698:12;691:39;758:2;753:3;749:12;742:19;;529:238;;;;775:107;854:22;870:5;854:22;;;849:3;842:35;836:46;;;889:407;;1080:2;1069:9;1065:18;1057:26;;1130:9;1124:4;1120:20;1116:1;1105:9;1101:17;1094:47;1155:131;1281:4;1155:131;;;1147:139;;1051:245;;;;1303:205;;1417:2;1406:9;1402:18;1394:26;;1431:67;1495:1;1484:9;1480:17;1471:6;1431:67;;;1388:120;;;;;1516:163;;1631:6;1626:3;1619:19;1668:4;1663:3;1659:14;1644:29;;1612:67;;;;;1687:81;;1758:4;1751:5;1747:16;1736:27;;1730:38;;;;1775:113;1842:22;1858:5;1842:22;;;1835:5;1832:33;1822:2;;1879:1;1876;1869:12;1822:2;1816:72;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.8.0;\r\n\r\npragma experimental ABIEncoderV2;\r\n\r\ncontract Points {\r\n    mapping (address => uint8) private points;\r\n    \r\n    function pushPoints(uint8 new_points) public {\r\n        require(new_points > 0, \"Points must be non-zero and non-negative number\");\r\n        points[msg.sender] += new_points;\r\n    }\r\n\r\n    function removePoints(uint8 new_points) public {\r\n        require(new_points > 0, \"Points must be non-zero and non-negative number\");\r\n        points[msg.sender] -= new_points;\r\n    }\r\n    \r\n    function getTotalPoints() public view returns (uint8) {\r\n        return points[msg.sender];\r\n    }\r\n}",
+  "sourcePath": "C:/Users/smithj40/Documents/Blockchain/Final_Project/central-clicker-truffle/contracts/points.sol",
+  "ast": {
+    "absolutePath": "/C/Users/smithj40/Documents/Blockchain/Final_Project/central-clicker-truffle/contracts/points.sol",
+    "exportedSymbols": {
+      "Points": [
+        202
+      ]
+    },
+    "id": 203,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 145,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:2"
+      },
+      {
+        "id": 146,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "69:33:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 202,
+        "linearizedBaseContracts": [
+          202
+        ],
+        "name": "Points",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 150,
+            "name": "points",
+            "nodeType": "VariableDeclaration",
+            "scope": 202,
+            "src": "129:41:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+              "typeString": "mapping(address => uint8)"
+            },
+            "typeName": {
+              "id": 149,
+              "keyType": {
+                "id": 147,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "138:7:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "129:26:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                "typeString": "mapping(address => uint8)"
+              },
+              "valueType": {
+                "id": 148,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "149:5:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 169,
+              "nodeType": "Block",
+              "src": "228:136:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "id": 158,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 156,
+                          "name": "new_points",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 152,
+                          "src": "247:10:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 157,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "260:1:2",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "247:14:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "506f696e7473206d757374206265206e6f6e2d7a65726f20616e64206e6f6e2d6e65676174697665206e756d626572",
+                        "id": 159,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "263:49:2",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        },
+                        "value": "Points must be non-zero and non-negative number"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        }
+                      ],
+                      "id": 155,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        220,
+                        221
+                      ],
+                      "referencedDeclaration": 221,
+                      "src": "239:7:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 160,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "239:74:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 161,
+                  "nodeType": "ExpressionStatement",
+                  "src": "239:74:2"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 167,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 162,
+                        "name": "points",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 150,
+                        "src": "324:6:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                          "typeString": "mapping(address => uint8)"
+                        }
+                      },
+                      "id": 165,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 163,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 217,
+                          "src": "331:3:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 164,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "331:10:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "324:18:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 166,
+                      "name": "new_points",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 152,
+                      "src": "346:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "324:32:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 168,
+                  "nodeType": "ExpressionStatement",
+                  "src": "324:32:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 170,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "pushPoints",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 153,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 152,
+                  "name": "new_points",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 170,
+                  "src": "203:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 151,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "203:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "202:18:2"
+            },
+            "returnParameters": {
+              "id": 154,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "228:0:2"
+            },
+            "scope": 202,
+            "src": "183:181:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 189,
+              "nodeType": "Block",
+              "src": "419:136:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "id": 178,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 176,
+                          "name": "new_points",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 172,
+                          "src": "438:10:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 177,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "451:1:2",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "438:14:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "506f696e7473206d757374206265206e6f6e2d7a65726f20616e64206e6f6e2d6e65676174697665206e756d626572",
+                        "id": 179,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "454:49:2",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        },
+                        "value": "Points must be non-zero and non-negative number"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        }
+                      ],
+                      "id": 175,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        220,
+                        221
+                      ],
+                      "referencedDeclaration": 221,
+                      "src": "430:7:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 180,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "430:74:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 181,
+                  "nodeType": "ExpressionStatement",
+                  "src": "430:74:2"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 187,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 182,
+                        "name": "points",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 150,
+                        "src": "515:6:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                          "typeString": "mapping(address => uint8)"
+                        }
+                      },
+                      "id": 185,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 183,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 217,
+                          "src": "522:3:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 184,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "522:10:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "515:18:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "-=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 186,
+                      "name": "new_points",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 172,
+                      "src": "537:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "515:32:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 188,
+                  "nodeType": "ExpressionStatement",
+                  "src": "515:32:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 190,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "removePoints",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 173,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 172,
+                  "name": "new_points",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 190,
+                  "src": "394:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 171,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "394:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "393:18:2"
+            },
+            "returnParameters": {
+              "id": 174,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "419:0:2"
+            },
+            "scope": 202,
+            "src": "372:183:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 200,
+              "nodeType": "Block",
+              "src": "621:44:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 195,
+                      "name": "points",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 150,
+                      "src": "639:6:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                        "typeString": "mapping(address => uint8)"
+                      }
+                    },
+                    "id": 198,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 196,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 217,
+                        "src": "646:3:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 197,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "646:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "639:18:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "functionReturnParameters": 194,
+                  "id": 199,
+                  "nodeType": "Return",
+                  "src": "632:25:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 201,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTotalPoints",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 191,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "590:2:2"
+            },
+            "returnParameters": {
+              "id": 194,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 193,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 201,
+                  "src": "614:5:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 192,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "614:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "613:7:2"
+            },
+            "scope": 202,
+            "src": "567:98:2",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 203,
+        "src": "106:562:2"
+      }
+    ],
+    "src": "33:635:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/smithj40/Documents/Blockchain/Final_Project/central-clicker-truffle/contracts/points.sol",
+    "exportedSymbols": {
+      "Points": [
+        202
+      ]
+    },
+    "id": 203,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 145,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:2"
+      },
+      {
+        "id": 146,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "69:33:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 202,
+        "linearizedBaseContracts": [
+          202
+        ],
+        "name": "Points",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 150,
+            "name": "points",
+            "nodeType": "VariableDeclaration",
+            "scope": 202,
+            "src": "129:41:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+              "typeString": "mapping(address => uint8)"
+            },
+            "typeName": {
+              "id": 149,
+              "keyType": {
+                "id": 147,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "138:7:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "129:26:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                "typeString": "mapping(address => uint8)"
+              },
+              "valueType": {
+                "id": 148,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "149:5:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 169,
+              "nodeType": "Block",
+              "src": "228:136:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "id": 158,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 156,
+                          "name": "new_points",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 152,
+                          "src": "247:10:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 157,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "260:1:2",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "247:14:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "506f696e7473206d757374206265206e6f6e2d7a65726f20616e64206e6f6e2d6e65676174697665206e756d626572",
+                        "id": 159,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "263:49:2",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        },
+                        "value": "Points must be non-zero and non-negative number"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        }
+                      ],
+                      "id": 155,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        220,
+                        221
+                      ],
+                      "referencedDeclaration": 221,
+                      "src": "239:7:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 160,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "239:74:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 161,
+                  "nodeType": "ExpressionStatement",
+                  "src": "239:74:2"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 167,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 162,
+                        "name": "points",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 150,
+                        "src": "324:6:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                          "typeString": "mapping(address => uint8)"
+                        }
+                      },
+                      "id": 165,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 163,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 217,
+                          "src": "331:3:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 164,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "331:10:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "324:18:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 166,
+                      "name": "new_points",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 152,
+                      "src": "346:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "324:32:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 168,
+                  "nodeType": "ExpressionStatement",
+                  "src": "324:32:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 170,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "pushPoints",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 153,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 152,
+                  "name": "new_points",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 170,
+                  "src": "203:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 151,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "203:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "202:18:2"
+            },
+            "returnParameters": {
+              "id": 154,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "228:0:2"
+            },
+            "scope": 202,
+            "src": "183:181:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 189,
+              "nodeType": "Block",
+              "src": "419:136:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "id": 178,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 176,
+                          "name": "new_points",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 172,
+                          "src": "438:10:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 177,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "451:1:2",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "438:14:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "506f696e7473206d757374206265206e6f6e2d7a65726f20616e64206e6f6e2d6e65676174697665206e756d626572",
+                        "id": 179,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "454:49:2",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        },
+                        "value": "Points must be non-zero and non-negative number"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_ea247e550f286730696a43ba9a55e5101afc81b8d33bee4681e1ae6433e892a5",
+                          "typeString": "literal_string \"Points must be non-zero and non-negative number\""
+                        }
+                      ],
+                      "id": 175,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        220,
+                        221
+                      ],
+                      "referencedDeclaration": 221,
+                      "src": "430:7:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 180,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "430:74:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 181,
+                  "nodeType": "ExpressionStatement",
+                  "src": "430:74:2"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 187,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 182,
+                        "name": "points",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 150,
+                        "src": "515:6:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                          "typeString": "mapping(address => uint8)"
+                        }
+                      },
+                      "id": 185,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 183,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 217,
+                          "src": "522:3:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 184,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "522:10:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "515:18:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "-=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 186,
+                      "name": "new_points",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 172,
+                      "src": "537:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "515:32:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 188,
+                  "nodeType": "ExpressionStatement",
+                  "src": "515:32:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 190,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "removePoints",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 173,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 172,
+                  "name": "new_points",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 190,
+                  "src": "394:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 171,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "394:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "393:18:2"
+            },
+            "returnParameters": {
+              "id": 174,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "419:0:2"
+            },
+            "scope": 202,
+            "src": "372:183:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 200,
+              "nodeType": "Block",
+              "src": "621:44:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 195,
+                      "name": "points",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 150,
+                      "src": "639:6:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_address_$_t_uint8_$",
+                        "typeString": "mapping(address => uint8)"
+                      }
+                    },
+                    "id": 198,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 196,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 217,
+                        "src": "646:3:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 197,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "646:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "639:18:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "functionReturnParameters": 194,
+                  "id": 199,
+                  "nodeType": "Return",
+                  "src": "632:25:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 201,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTotalPoints",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 191,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "590:2:2"
+            },
+            "returnParameters": {
+              "id": 194,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 193,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 201,
+                  "src": "614:5:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 192,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "614:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "613:7:2"
+            },
+            "scope": 202,
+            "src": "567:98:2",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 203,
+        "src": "106:562:2"
+      }
+    ],
+    "src": "33:635:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "1606956843256": {
+      "events": {},
+      "links": {},
+      "address": "0xedB581bca1D7368E12Fd8d67B3740e20d6C3D590",
+      "transactionHash": "0xce4ca7f157a9631c3f4b71c592ece2cb4fef4136c8b572d4b52a9a87674fed62"
+    },
+    "1606965747094": {
+      "events": {},
+      "links": {},
+      "address": "0x9f66c2972538A548250c53B700B64eeBeEcb5277",
+      "transactionHash": "0x77ac39e09430e207ab77e0995a13d03d0506b7731f1337b19921f98f5b4731fe"
+    },
+    "1606966055700": {
+      "events": {},
+      "links": {},
+      "address": "0x5CC50D819bE601dEb61505d7540275986a373726",
+      "transactionHash": "0x7ea5cef259412d30f7ffe0c071495c610dbd6a2f8890620ce9dce22aa6ba5e1b"
+    },
+    "1606966165397": {
+      "events": {},
+      "links": {},
+      "address": "0x7EaF8cd4507F4e308E7BF886EB86Eb12659f8979",
+      "transactionHash": "0x808f9863d8cd6af3add1fd4e1bc908d4cf58b5106195b602572cb591e692ccb3"
+    },
+    "1606966567709": {
+      "events": {},
+      "links": {},
+      "address": "0x1304aC7D31618e3Bb232d5646Ee9f0e57419FE37",
+      "transactionHash": "0xd9feaafc5682030987981d82472b79b11cc07eabd5eb7ac3bc1a27022e5b5c51"
+    },
+    "1606966695400": {
+      "events": {},
+      "links": {},
+      "address": "0x0d188Ddc28791135db4D81888fBd9d374d63478F",
+      "transactionHash": "0x47bc9a80fa9fc5b579c9b107ac09bb229fdbeed2b5dcef6d98a8e1f4017a6229"
+    },
+    "1606967026234": {
+      "events": {},
+      "links": {},
+      "address": "0xBC439aE75ae74F89a5DCA2E2B7Ae26D7540AB728",
+      "transactionHash": "0x3fcc9d1376198b491f5bab3819faade16cbb46e24753002fc3adcaad876c9d5d"
+    },
+    "1606967166299": {
+      "events": {},
+      "links": {},
+      "address": "0xFC25386436Dd9e6122563480Fdf5aA28Cc449dB1",
+      "transactionHash": "0xee72b6337c3c245bc2cce873fc479bfcb2020771b03be180580dc7a560285e84"
+    },
+    "1606968388100": {
+      "events": {},
+      "links": {},
+      "address": "0xe313C1a5c09158289C39b6eCAb3892c934FCEb61",
+      "transactionHash": "0x67e8ab5f880cd01da2c7730102537cf5ebd73e8f838de9d1bfbfaf713aa964a7"
+    },
+    "1607018823185": {
+      "events": {},
+      "links": {},
+      "address": "0xf9988C5EBc58C7A62B2D0faC5868F5CAf8A8A337",
+      "transactionHash": "0xb1d1eae8678e241df0f4b74a9691b0494d42ed6c496364727e3e90cb2fabc88d"
+    },
+    "1607019104156": {
+      "events": {},
+      "links": {},
+      "address": "0xd5d9E075a972fc91CF46C029C891Fe765bC58bd8",
+      "transactionHash": "0x94ec3016882a3dee7b3fcbc8067caf2d59177d6099e24b839e949edda4eb65f4"
+    },
+    "1607019490495": {
+      "events": {},
+      "links": {},
+      "address": "0x3AdAE0B5197ec841F0fB4e6B3388Dac9bCaFac37",
+      "transactionHash": "0xdd65557f0c37f45db44216dcfa99ed38f2361f66cb5852c2901703efac1bdbc5"
+    },
+    "1607020097297": {
+      "events": {},
+      "links": {},
+      "address": "0xBc988236A6005F5eAD90835F7d2fDEB50F288ba8",
+      "transactionHash": "0x0690da4a7ffe1ffb217e3fa0e96a3305cffc3082ce77341bcbddb454fe41c39b"
+    },
+    "1607020256037": {
+      "events": {},
+      "links": {},
+      "address": "0xEEF95f1B38D14206afF7f82246F3F9B3Ca946918",
+      "transactionHash": "0xa00f5905b19f12b934bf8eb4bfba1653fea08cc5e1a4bd30d2d382d8e3a2e27d"
+    },
+    "1607409051783": {
+      "events": {},
+      "links": {},
+      "address": "0x48D4bfBBB3c57d47F349E1deC2c2f4050D604946",
+      "transactionHash": "0x2dfed1534d409fae2bcb192a933f85dc6fe565150a2fb87c38f076407cf36647"
+    },
+    "1607441971361": {
+      "events": {},
+      "links": {},
+      "address": "0x284fA5C65E28BbF078Bf1eC6E5695f6dcd6268a9",
+      "transactionHash": "0x64b03ed9086b54cab27e8322de490eb9ee3605a7422c8942c6af748a688a7838"
+    },
+    "1607442239690": {
+      "events": {},
+      "links": {},
+      "address": "0xE10B7759B9c165439eb8F7E4eD82383d6ce6fff4",
+      "transactionHash": "0xf9c5cc44a601fd4d4de044172c50ce75fe089cda16cab8d14562965d626998f6"
+    },
+    "1607442464326": {
+      "events": {},
+      "links": {},
+      "address": "0xD3d57ae646E581A198A68D8d46ef46639CeAE8D4",
+      "transactionHash": "0x953be3c7b585bd74eacdd05bc9a217548046599f1825088923417a1d17ee45eb"
+    },
+    "1607443799074": {
+      "events": {},
+      "links": {},
+      "address": "0xa1E35a5a919c2dd0B166e55d2BDdB4F346C3BB35",
+      "transactionHash": "0xbec879e6d1ecea8b01595d0977181e3aad824721a4038d208bfea0d8b5082568"
+    },
+    "1607444053981": {
+      "events": {},
+      "links": {},
+      "address": "0x96dD1cF53ca4989f2DE3271C87D6266D2e9D4297",
+      "transactionHash": "0xb87a5ce6c9e80c233eb6bc0827924f57b5443b80bf1383e38f93c7c57551eaee"
+    },
+    "1607444230824": {
+      "events": {},
+      "links": {},
+      "address": "0x1184a6daC74608A20142AD3B94d8f764705d9D07",
+      "transactionHash": "0x3166f02c5d4369d841f7587767e7366dc22680cd247b5f1d47192f60a7fe51d7"
+    },
+    "1608171053592": {
+      "events": {},
+      "links": {},
+      "address": "0x4e43FcEDB914f28e58D822dde08C77aaB573A3Ee",
+      "transactionHash": "0xe3fa0b336c7afdf4af61447275884839afd3234e653d1511a108827d3b1511e6"
+    }
+  },
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2020-12-17T02:11:09.462Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
